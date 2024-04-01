@@ -1,19 +1,9 @@
-'''13. Crie vários dicionários, em que o nome de cada dicionário seja o nome de
-um animal de estimação. Em cada dicionário, inclua o tipo do animal e o
-nome do dono. Armazene esses dicionários em uma lista chamada pets.
-Em seguida, percorra sua lista com um laço e, à medida que fizer isso,
-apresente tudo que você sabe sobre cada animal de estimação.'''
+'''13. Crie uma lista chamada sandwich_orders e a preencha com os nomes de
+vários sanduíches. Em seguida, crie uma lista vazia chamada
+finished_sandwiches. Percorra a lista de pedidos de sanduíches com um
+laço e mostre uma mensagem para cada pedido, por exemplo, Preparei seu
+sanduíche de atum. À medida que cada sanduíche for preparado, transfirao para a lista de sanduíches prontos. Depois que todos os sanduíches
+estiverem prontos, mostre uma mensagem que liste cada sanduíche
+preparado.'''
 
-cachorro = {'tipo': 'Cachorro', 'dono': 'João'}
-gato = {'tipo': 'Gato', 'dono': 'Maria'}
-passarinho = {'tipo': 'Passarinho', 'dono': 'Pedro'}
-coelho = {'tipo': 'Coelho', 'dono': 'Ana'}
 
-# Armazenando os dicionários em uma lista chamada pets
-pets = [cachorro, gato, passarinho, coelho]
-
-# Percorrendo a lista de animais de estimação com um loop
-for pet in pets:
-    print("\nInformações sobre o animal de estimação:")
-    print("Tipo:", pet['tipo'])
-    print("Dono:", pet['dono'])
